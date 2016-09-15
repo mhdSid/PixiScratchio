@@ -10,18 +10,18 @@
 angular.module("ScratchCard");
 
 angular.module("ScratchCard").constant("__OPTIONS__", {
-    __BRUSHBOXBOACKGROUND__: 'https://mhdsid.github.io/pixiScratchio/app/art/images/scratch.png',
-    __MAINBACKGROUNDIMAGE__: 'https://mhdsid.github.io/pixiScratchio/app/art/images/background.jpeg',
-    __BRUSHIMAGE__: 'https://mhdsid.github.io/pixiScratchio/pixiScratchio/app/art/images/realBrush.png',
-    __PRIZEIMAGES__: "https://mhdsid.github.io/pixiScratchio/app/art/images/carr0.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr1.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr2.jpg-" +
-        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr3.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr4.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr5.jpg-" +
-        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr6.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr7.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr8.jpg",
+    __BRUSHBOXBOACKGROUND__: 'https://mhdsid.github.io/pixiScratchio/app/art/img/scratch.png',
+    __MAINBACKGROUNDIMAGE__: 'https://mhdsid.github.io/pixiScratchio/app/art/img/background.jpeg',
+    __BRUSHIMAGE__: 'https://mhdsid.github.io/pixiScratchio/pixiScratchio/app/art/img/realBrush.png',
+    __PRIZEIMAGES__: "https://mhdsid.github.io/pixiScratchio/app/art/img/carr0.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr1.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr2.jpg-" +
+        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr3.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr4.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr5.jpg-" +
+        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr6.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr7.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr8.jpg",
     __BRUSHBOXWIDTH__: 500,
     __BRUSHBOXHEIGHT__: 500,
     __BRUSHBOXPADDING__: 20,
