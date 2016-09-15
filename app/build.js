@@ -10,18 +10,18 @@
 angular.module("ScratchCard");
 
 angular.module("ScratchCard").constant("__OPTIONS__", {
-    __BRUSHBOXBOACKGROUND__: '/art/images/scratch.png',
-    __MAINBACKGROUNDIMAGE__: '/art/images/background.jpeg',
-    __BRUSHIMAGE__: '/art/images/realBrush.png',
-    __PRIZEIMAGES__: "/art/images/carr0.jpg," +
-        "/art/images/carr1.jpg," +
-        "/art/images/carr2.jpg-" +
-        "/art/images/carr3.jpg," +
-        "/art/images/carr4.jpg," +
-        "/art/images/carr5.jpg-" +
-        "/art/images/carr6.jpg," +
-        "/art/images/carr7.jpg," +
-        "/art/images/carr8.jpg",
+    __BRUSHBOXBOACKGROUND__: 'https://mhdsid.github.io/pixiScratchio/app/art/images/scratch.png',
+    __MAINBACKGROUNDIMAGE__: 'https://mhdsid.github.io/pixiScratchio/app/art/images/background.jpeg',
+    __BRUSHIMAGE__: 'https://mhdsid.github.io/pixiScratchio/pixiScratchio/app/art/images/realBrush.png',
+    __PRIZEIMAGES__: "https://mhdsid.github.io/pixiScratchio/app/art/images/carr0.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr1.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr2.jpg-" +
+        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr3.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr4.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr5.jpg-" +
+        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr6.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr7.jpg," +
+        "https://mhdsid.github.io/pixiScratchio/app/art/images/carr8.jpg",
     __BRUSHBOXWIDTH__: 500,
     __BRUSHBOXHEIGHT__: 500,
     __BRUSHBOXPADDING__: 20,
@@ -39,10 +39,10 @@ angular.module("ScratchCard").constant("__OPTIONS__", {
         $locationProvider.html5Mode(true);
         $routeProvider
             .when('/', {
-                templateUrl: 'pixiScratchio/app/scratch-card-pixi/scratch-card-pixi.html'
+                templateUrl: 'https://mhdsid.github.io/pixiScratchio/app/scratch-card-pixi/scratch-card-pixi.html'
             })
             .when('/scratch-card-canvas', {
-                templateUrl: 'pixiScratchio/app/scratch-card-canvas/scratch-card-canvas.html'
+                templateUrl: 'https://mhdsid.github.io/pixiScratchio/app/scratch-card-canvas/scratch-card-canvas.html'
             })
             .otherwise({
                 redirectTo: '/'
