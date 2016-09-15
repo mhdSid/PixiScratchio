@@ -39,10 +39,10 @@ angular.module("ScratchCard").constant("__OPTIONS__", {
         $locationProvider.html5Mode(true);
         $routeProvider
             .when('/', {
-                templateUrl: 'app/scratch-card-pixi/scratch-card-pixi.html'
+                templateUrl: 'pixiScratchio/app/scratch-card-pixi/scratch-card-pixi.html'
             })
             .when('/scratch-card-canvas', {
-                templateUrl: 'app/scratch-card-canvas/scratch-card-canvas.html'
+                templateUrl: 'pixiScratchio/app/scratch-card-canvas/scratch-card-canvas.html'
             })
             .otherwise({
                 redirectTo: '/'
