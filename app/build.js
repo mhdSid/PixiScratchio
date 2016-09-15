@@ -10,18 +10,18 @@
 angular.module("ScratchCard");
 
 angular.module("ScratchCard").constant("__OPTIONS__", {
-    __BRUSHBOXBOACKGROUND__: 'https://mhdsid.github.io/pixiScratchio/app/art/img/scratch.png',
-    __MAINBACKGROUNDIMAGE__: 'https://mhdsid.github.io/pixiScratchio/app/art/img/background.jpeg',
-    __BRUSHIMAGE__: 'https://mhdsid.github.io/pixiScratchio/pixiScratchio/app/art/img/realBrush.png',
-    __PRIZEIMAGES__: "https://mhdsid.github.io/pixiScratchio/app/art/img/carr0.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr1.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr2.jpg-" +
-        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr3.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr4.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr5.jpg-" +
-        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr6.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr7.jpg," +
-        "https://mhdsid.github.io/pixiScratchio/app/art/img/carr8.jpg",
+    __BRUSHBOXBOACKGROUND__: './pixiScratchio/app/art/img/scratch.png',
+    __MAINBACKGROUNDIMAGE__: './pixiScratchio/app/art/img/background.jpeg',
+    __BRUSHIMAGE__: './pixiScratchio/pixiScratchio/app/art/img/realBrush.png',
+    __PRIZEIMAGES__: "./pixiScratchio/app/art/img/carr0.jpg," +
+        "./pixiScratchio/app/art/img/carr1.jpg," +
+        "./pixiScratchio/app/art/img/carr2.jpg-" +
+        "./pixiScratchio/app/art/img/carr3.jpg," +
+        ".pixiScratchio/app/art/img/carr4.jpg," +
+        "./pixiScratchio/app/art/img/carr5.jpg-" +
+        "./pixiScratchio/app/art/img/carr6.jpg," +
+        "./pixiScratchio/app/art/img/carr7.jpg," +
+        "h./pixiScratchio/app/art/img/carr8.jpg",
     __BRUSHBOXWIDTH__: 500,
     __BRUSHBOXHEIGHT__: 500,
     __BRUSHBOXPADDING__: 20,
