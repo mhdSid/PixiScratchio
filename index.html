@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="ScratchCard">
+<head>
+    <title>ScratchCard</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+    <base href="/">
+    
+    <link rel="stylesheet" href="/app/art/styles/main.css">
+
+</head>
+<body dir="ltr">
+
+    <nav>
+        <a href="/">Using PixiJS</a>
+        <a href="/scratch-card-canvas">Using Regular Canvas</a>
+    </nav>
+
+    <!-- Load view -->
+    <div ng-view class="compiled-view"> 
+    </div>
+
+            
+    <script src="/app/lib.js"></script>
+    
+    <script src="/app/build.js"></script>
+
+</body>
+</html>
